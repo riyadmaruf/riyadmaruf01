@@ -1,0 +1,259 @@
+*{
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/* font-family: 'Raleway', sans-serif; */
+body {
+	margin: 0px;
+	font-family: 'Raleway', sans-serif;
+}
+.container {
+	width: 75%;
+	border: 0px solid green;
+	height: auto;
+	margin: 0px auto;
+}
+/* common code end */
+/* header code start */
+header {
+	border: 0px solid #000;
+	background-color:#ccc;
+	letter-spacing: 2px;
+	clear: both;
+}
+.head-sec {
+	padding: 10px 10px 30px 10px; 
+	background-color:#fff;
+}
+.title-head{
+	font: normal 300% 'century gothic', arial, sans-serif;
+	padding-top: 30px;
+	
+}
+.title-cap{
+	font: normal 'century gothic', arial, sans-serif;
+	padding-top: 5px;
+	color: gray;
+}
+.nh-color {
+	color: aqua;
+}
+h1:hover .h-color {
+	color: gray;
+} 
+/* header code end */
+/* nav code start */
+nav {
+	border: 0px solid #000;
+	height: 50px;
+	background-color:#ccc;
+}
+.nav-sec{
+	background-color:#eee;
+	text-align: right;
+}
+.nav-icon{
+	color: #fff;
+	background-color: #ccc;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 15px;
+	margin: 4px 10px;
+}
+.nav-icon:hover {
+	color: #000;
+}
+.nav-active{
+	background-color: aqua;
+	margin-left: 35%;
+}
+/* nav code end */
+/* banner code start */
+.banner-sec{
+	border: 0px solid #000;
+}
+img {
+	border: 8px inset gray;
+	margin-top: 10px;
+	width: 100%;
+}
+
+/* banner code end */
+
+
+/* main code start */
+.main {
+	border: 0px solid #000;
+	height: 630px;
+	padding: 20px 0px 20px 0px;
+	clear: both;
+}
+/* aside code start */
+aside {
+	border: 0px solid red;
+	width: 30%;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	float: left;
+}
+.a-top{
+	border: 1px solid #CCCCCC;
+	border-radius: 10px;
+	width: 90%;
+	padding: 20px 20px 40px 20px;
+}
+#at-h3{
+	font-size: 130%;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+#at-h4{
+	font-size: 14px;
+	color: #3AC2FF;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+#at-h5{
+	font-size: 60%;
+	font-weight: normal;
+}
+#at-p{
+	font-size: 80%;
+}
+#at-a{
+	color: #3AC2FF;
+	font-size: 80%;
+}
+.a-middle{
+	border: 1px solid #CCCCCC;
+	border-radius: 10px;
+	width: 90%;
+	margin-top: 20px;
+	padding: 20px 20px 20px 20px;
+}
+#am-h3{
+	font-size: 130%;
+	font-weight: 200;
+}
+#am-ul{
+	padding-left: 0px;
+	color: #3AC2FF;
+	font-size: 80%;
+	margin-left: -15px;
+}
+.am-li{
+	list-style: url(../image/bullet.png) inside; 
+	padding: 3px 10px 0px 20px;
+	color: #52C6F1;
+}
+.am-a{
+	color: #52C6F1;
+}
+.am-a:hover{
+	color: #52C6F1;
+	text-decoration: none;
+}
+.a-bottom{
+	border: 1px solid #CCCCCC;
+	border-radius: 10px;
+	width: 90%;
+	margin: 20px 0px 20px 0px;
+	padding: 20px 20px 30px 20px;
+}
+#ab-h3{
+	font-size: 130%;
+	font-weight: 200;
+}
+#ab-search{
+	color: gray;
+	border: 1px solid gray;
+	width: 150px;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+button{
+	border: none;
+	background: none;
+	font-size: 20px;
+}
+/* article code start */
+article {
+	border: 0px solid red;
+	width: 70%;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	padding: 10px 0px 10px 10px;
+	float: right;
+}
+.a-h1 {
+	font-weight: 200;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.a-p1{
+	padding-bottom: 20px;
+	font-size: 80%;
+}
+.a-a1{
+	color: #3AC2FF;
+}
+.a-a1:hover{
+	text-decoration: none;
+}
+.a-h2 {
+	color: #3AC2FF;
+	font-weight: 200;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.a-ul{
+	margin: 0px;
+	padding: 0px;
+}
+.a-li{
+	list-style-type: none;
+	font-size: 90%;
+	line-height: 1.5;
+	background: url(../image/bullet.png) no-repeat;
+	padding: 0px 0px 5px 20px;
+}
+/* article code end */
+/* main code end */
+footer{
+	background-color: #CCCCCC;
+	padding: 30px 50px;
+}
+.footer {
+	border: 0px solid #000;
+	height: 110px;
+	background-color: #CCCCCC;
+	margin-top: 0px;
+	text-align: center;
+}
+.f-p{
+	font-size: 80%;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+.f-nav{
+	text-decoration: none;
+	color: black;
+}
+.f-nav:hover {
+	color: #00C6E7;
+}
+
+
+
+
+/*address {
+	font-size: 20px;
+	text-align: center;
+	padding: 20px 50px;
+	margin: 300px;
+	background-color: rgba(255,255,255,0.5);
+	
+}*/
